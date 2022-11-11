@@ -83,6 +83,7 @@ $(document).ready(function () {
         setTimeout(function () {
             $('.layer').css('transition', 'none');
             $('.layer .wrap').css('transition', ' all .8s');
+            $('iframe').css('display', 'none');
         }, 800);
     });
 
