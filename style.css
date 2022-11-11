@@ -1164,6 +1164,10 @@ footer .container .social .icon-yt {
   }
 }
 
+iframe {
+  display: none;
+}
+
 @-webkit-keyframes bling {
   from {
     -webkit-box-shadow: 0px 0px 3px 0px rgba(85, 133, 255, 0.979);

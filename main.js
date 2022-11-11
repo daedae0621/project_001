@@ -70,11 +70,15 @@ $(document).ready(function () {
     $('section.video').click(function () {
         $('.layer').css('transform', 'scale(1)');
         $('.layer .wrap').css('transform', 'scale(1)');
+        $('iframe').css('display', 'block');
+        $('iframe').css({ 'transform': 'scale(1)' });
     });
 
     $('#mv-close-btn').click(function () {
         $('.layer .wrap').css('transform', 'scale(0)');
         $('.layer').css({ 'transform': 'scale(0)', 'transition': 'all .5s .8s' });
+        $('iframe').css({ 'transform': 'scale(0)', 'transition': 'all .8s' });
+
 
         setTimeout(function () {
             $('.layer').css('transition', 'none');
