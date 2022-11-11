@@ -531,6 +531,10 @@ aside .info-wrap .social .icon-yt {
   height: 100%;
 }
 
+iframe {
+  display: none;
+}
+
 .award {
   margin-bottom: 100px;
   position: relative;
@@ -1164,9 +1168,7 @@ footer .container .social .icon-yt {
   }
 }
 
-iframe {
-  display: none;
-}
+
 
 @-webkit-keyframes bling {
   from {
